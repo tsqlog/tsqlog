@@ -4,7 +4,7 @@ Direcory  ../tables is used to store sql script for:
 
 Templates:
 **create schema**  
-to change (ctrl-h)
+to change (ctrl-h)  
 schema_name
 ```
 set nocount on
