@@ -10,10 +10,10 @@ Direcory  ../tables is used to store sql script for:
 - add/remove columns  
 
 Templates:   
-*ceate table definition* 
-to change (ctrl-h)
-schema_name
-table_name
+*ceate table definition*  
+to change (ctrl-h)  
+schema_name  
+table_name  
 ```
 set nocount on
 if objectproperty(object_id(N'[schema_name].[table_name]'),'IsTable') IS NULL
@@ -34,9 +34,10 @@ end
 set nocount off
 go
 ```
-*drop table* 
-to change (ctrl-h) 
-[schema_name].[table_name] 
+*drop table*   
+to change (ctrl-h)   
+schema_name   
+table_name
 ```
 set nocount on
 if objectproperty(object_id(N'[schema_name].[table_name]'),'IsTable') = 1
@@ -54,11 +55,11 @@ end
 set nocount off
 go
 ```
-*create primary key definition*
-to change (ctrl-h)
-schema_name
-table_name
-column_name
+*create primary key definition*  
+to change (ctrl-h)  
+schema_name  
+table_name  
+column_name  
 ```
 set nocount on
 if objectproperty(object_id(N'[schema_name].[pk_table_name]'),'IsPrimaryKey') IS NULL
@@ -79,11 +80,11 @@ set nocount off
 go
 ```
 
-*create default constraint definition*
-to change (ctrl-h)
-schema_name
-table_name
-column_name
+*create default constraint definition*  
+to change (ctrl-h)  
+schema_name  
+table_name  
+column_name  
 ```
 set nocount on
 if objectproperty(object_id(N'[schema_name].[df_table_name_column_name]'),'IsDefaultCnst') IS NULL
