@@ -3,7 +3,7 @@ Direcory  ../tables is used to store sql script for:
 - drop schema
 
 Templates:
-**create schema**
+**create schema**  
 to change (ctrl-h)
 schema_name
 ```
