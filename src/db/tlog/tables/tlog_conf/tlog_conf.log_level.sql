@@ -9,9 +9,9 @@ begin
 	,	int_level int not null
 	,	is_active bit not null
 	,	create_date datetime not null
-	,	create_user varchar(100) not null
+	,	create_user nvarchar(128) not null
 	,	modify_date datetime null
-	,	modify_user varchar(100) null
+	,	modify_user nvarchar(128) null
 	,	row_ver timestamp not null
 	)
 	---
