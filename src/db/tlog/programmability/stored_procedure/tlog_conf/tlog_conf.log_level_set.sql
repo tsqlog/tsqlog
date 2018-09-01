@@ -17,7 +17,7 @@ as
 begin
 	set nocount on
 
-	select	@user_name = isnull(@user_name, suser_sname())
+	select	@user_name = tlog_core.username_get(@user_name)
 
 	update	l
 	set		l.int_level = @int_level
