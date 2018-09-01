@@ -8,7 +8,7 @@ print 'utc_time:' + convert(varchar(23), getutcdate(), 121) + ';time:' + convert
 go
 alter function [tlog_conf].[log_level_is_exists]
 (
-	@log_level_code char(50)
+	@log_level_code char(50) = null
 )
 returns bit
 as
